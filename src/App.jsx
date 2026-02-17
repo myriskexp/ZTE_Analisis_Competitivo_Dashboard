@@ -42,16 +42,16 @@ const colombiaData = [
   { brand: "TECNO", share: 10, trend: "up", segment: "Entry", price: "$80-$150", color: COLORS.tecno },
   { brand: "OPPO", share: 5, trend: "up", segment: "Mid", price: "$150-$350", color: COLORS.oppo },
   { brand: "Huawei", share: 5, trend: "down", segment: "Mid-Premium", price: "$200-$800", color: "#c62828" },
-  { brand: "ZTE", share: 0.5, trend: "new", segment: "â€”", price: "â€”", color: COLORS.zte },
+  { brand: "ZTE", share: 0.5, trend: "new", segment: "—", price: "—", color: COLORS.zte },
 ];
 
 const competitors = [
-  { brand: "Samsung", model: "Ecosistema integrado", pricing: "$100-$1,800", segment: "Todo rango", advantage: "Portafolio mÃ¡s amplio, Galaxy ecosystem, DistribuciÃ³n #1 en LATAM", weakness: "Pierde share entry-level, fatiga de marca gama baja" },
+  { brand: "Samsung", model: "Ecosistema integrado", pricing: "$100-$1,800", segment: "Todo rango", advantage: "Portafolio más amplio, Galaxy ecosystem, Distribución #1 en LATAM", weakness: "Pierde share entry-level, fatiga de marca gama baja" },
   { brand: "Apple", model: "Walled garden + Servicios", pricing: "$600-$1,500+", segment: "Premium", advantage: "Lealtad extrema, ecosistema cerrado, valor reventa", weakness: "Solo premium, depende de financiamiento" },
-  { brand: "Xiaomi", model: "Cost leadership + IoT", pricing: "$100-$700", segment: "Value / Mid", advantage: "Mejor spec/precio, ecosistema IoT, comunidad activa", weakness: "PercepciÃ³n barata, servicio postventa dÃ©bil LATAM" },
-  { brand: "Motorola", model: "Mid-range + Stock Android", pricing: "$150-$500", segment: "Mid-range", advantage: "Android limpio, relaciÃ³n carriers COL, marca reconocida", weakness: "Sin flagship, ban 5G importaciÃ³n, innovaciÃ³n limitada" },
+  { brand: "Xiaomi", model: "Cost leadership + IoT", pricing: "$100-$700", segment: "Value / Mid", advantage: "Mejor spec/precio, ecosistema IoT, comunidad activa", weakness: "Percepción barata, servicio postventa débil LATAM" },
+  { brand: "Motorola", model: "Mid-range + Stock Android", pricing: "$150-$500", segment: "Mid-range", advantage: "Android limpio, relación carriers COL, marca reconocida", weakness: "Sin flagship, ban 5G importación, innovación limitada" },
   { brand: "TECNO", model: "Ultra-budget disruptor", pricing: "$80-$200", segment: "Entry-level", advantage: "Precio imbatible, canal offline fuerte", weakness: "Calidad percibida baja, sin ecosistema" },
-  { brand: "ZTE/nubia", model: "Nicho: Gaming + Foto + 5G Entry", pricing: "$90-$830", segment: "Nicho / Entry", advantage: "RedMagic gaming #1, UDC camera, 5.6% patentes 5G", weakness: "Zero brand awareness COL, sin distribuciÃ³n" },
+  { brand: "ZTE/nubia", model: "Nicho: Gaming + Foto + 5G Entry", pricing: "$90-$830", segment: "Nicho / Entry", advantage: "RedMagic gaming #1, UDC camera, 5.6% patentes 5G", weakness: "Zero brand awareness COL, sin distribución" },
 ];
 
 const moatData = [
@@ -64,23 +64,23 @@ const moatData = [
 ];
 
 const spaces = [
-  { id: 1, title: "Gaming Phone Accesible", range: "$300-$500", product: "RedMagic Neo 3", competition: "CERO competidores", icon: "ðŸŽ®", color: "#ef4444", desc: "15M+ gamers mÃ³viles en COL. NingÃºn gaming phone disponible. RedMagic con triggers fÃ­sicos, cooling activo, 6000mAh." },
-  { id: 2, title: "5G Ultra-Accesible", range: "Sub-$150", product: "Blade A75 5G", competition: "Ventana temporal", icon: "ðŸ“¡", color: "#00d4aa", desc: "Operadores necesitan 5G barato para planes. Samsung no tiene 5G <$200. TECNO solo ofrece 4G. Blade A75 5G a $139." },
-  { id: 3, title: "Foldable Accesible", range: "Sub-$600", product: "nubia Flip 2", competition: "Samsung Z Flip >$800", icon: "ðŸ“±", color: "#8b5cf6", desc: "No existe foldable <$600 en Colombia. Motorola Razr baneado (5G). nubia Flip 2 a $499-$599 abre segmento nuevo." },
-  { id: 4, title: "Smartphone para Creadores", range: "$400-$600", product: "nubia Z70 Ultra", competition: "Gap en mercado", icon: "ðŸ“¸", color: "#f59e0b", desc: "15M+ usuarios Instagram/TikTok. Sin smartphone para creadores en $400-$600. UDC camera sin notch, Neovision AI." },
+  { id: 1, title: "Gaming Phone Accesible", range: "$300-$500", product: "RedMagic Neo 3", competition: "CERO competidores", icon: "🎮", color: "#ef4444", desc: "15M+ gamers móviles en COL. Ningún gaming phone disponible. RedMagic con triggers físicos, cooling activo, 6000mAh." },
+  { id: 2, title: "5G Ultra-Accesible", range: "Sub-$150", product: "Blade A75 5G", competition: "Ventana temporal", icon: "📡", color: "#00d4aa", desc: "Operadores necesitan 5G barato para planes. Samsung no tiene 5G <$200. TECNO solo ofrece 4G. Blade A75 5G a $139." },
+  { id: 3, title: "Foldable Accesible", range: "Sub-$600", product: "nubia Flip 2", competition: "Samsung Z Flip >$800", icon: "📱", color: "#8b5cf6", desc: "No existe foldable <$600 en Colombia. Motorola Razr baneado (5G). nubia Flip 2 a $499-$599 abre segmento nuevo." },
+  { id: 4, title: "Smartphone para Creadores", range: "$400-$600", product: "nubia Z70 Ultra", competition: "Gap en mercado", icon: "📸", color: "#f59e0b", desc: "15M+ usuarios Instagram/TikTok. Sin smartphone para creadores en $400-$600. UDC camera sin notch, Neovision AI." },
 ];
 
 const phases = [
-  { phase: 1, title: "Establecimiento", months: "Meses 1-6", target: "0.5-1% cuota", actions: ["MercadoLibre como canal exclusivo", "3 SKUs: RedMagic Neo 3, Blade A75, nubia Focus 2", "Patrocinio torneos Free Fire / PUBG Mobile", "Alianza servicio postventa (red reparaciÃ³n existente)"], color: COLORS.accent },
-  { phase: 2, title: "ExpansiÃ³n de Canal", months: "Meses 7-12", target: "2-3% cuota", actions: ["Negociar con Tigo (leverage infra 5G)", "15-20 corners en Alkosto/Ktronix", "Agregar nubia Flip 2 y Z70 Ultra (5 SKUs)", "Demos gaming en retail"], color: COLORS.accentWarm },
-  { phase: 3, title: "Escalamiento", months: "Meses 13-18", target: "4-5% cuota", actions: ["Segundo operador (Claro o WOM)", "CampaÃ±a masiva $500-800K digital + OOH", "3 centros servicio propios (BOG, MDE, BAQ)", "Top 6 del mercado colombiano"], color: "#8b5cf6" },
+  { phase: 1, title: "Establecimiento", months: "Meses 1-6", target: "0.5-1% cuota", actions: ["MercadoLibre como canal exclusivo", "3 SKUs: RedMagic Neo 3, Blade A75, nubia Focus 2", "Patrocinio torneos Free Fire / PUBG Mobile", "Alianza servicio postventa (red reparación existente)"], color: COLORS.accent },
+  { phase: 2, title: "Expansión de Canal", months: "Meses 7-12", target: "2-3% cuota", actions: ["Negociar con Tigo (leverage infra 5G)", "15-20 corners en Alkosto/Ktronix", "Agregar nubia Flip 2 y Z70 Ultra (5 SKUs)", "Demos gaming en retail"], color: COLORS.accentWarm },
+  { phase: 3, title: "Escalamiento", months: "Meses 13-18", target: "4-5% cuota", actions: ["Segundo operador (Claro o WOM)", "Campaña masiva $500-800K digital + OOH", "3 centros servicio propios (BOG, MDE, BAQ)", "Top 6 del mercado colombiano"], color: "#8b5cf6" },
 ];
 
 const TrendIcon = ({ trend }) => {
-  if (trend === "up") return <span style={{ color: COLORS.accent }}>â–²</span>;
-  if (trend === "down") return <span style={{ color: COLORS.danger }}>â–¼</span>;
-  if (trend === "new") return <span style={{ color: COLORS.accentWarm }}>â˜…</span>;
-  return <span style={{ color: COLORS.textMuted }}>â€”</span>;
+  if (trend === "up") return <span style={{ color: COLORS.accent }}>▲</span>;
+  if (trend === "down") return <span style={{ color: COLORS.danger }}>▼</span>;
+  if (trend === "new") return <span style={{ color: COLORS.accentWarm }}>★</span>;
+  return <span style={{ color: COLORS.textMuted }}>—</span>;
 };
 
 const MoatBar = ({ value, max = 5 }) => (
@@ -112,7 +112,7 @@ const SectionTitle = ({ children, sub }) => (
 
 const GlobalView = () => (
   <div>
-    <SectionTitle sub="EnvÃ­os globales 2025: 1.25B unidades (+2% YoY). Mercado: USD $537.6B">Cuota de Mercado Global 2025</SectionTitle>
+    <SectionTitle sub="Envíos globales 2025: 1.25B unidades (+2% YoY). Mercado: USD $537.6B">Cuota de Mercado Global 2025</SectionTitle>
     <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
       {globalData.map((d, i) => (
         <div key={i} style={{ display: "flex", alignItems: "center", gap: 14, padding: "10px 16px", background: d.brand === "ZTE/nubia" ? COLORS.zte + "15" : i % 2 === 0 ? COLORS.surface : "transparent", borderRadius: 8, border: d.brand === "ZTE/nubia" ? `1px solid ${COLORS.zte}44` : "1px solid transparent" }}>
@@ -127,7 +127,7 @@ const GlobalView = () => (
     </div>
     <div style={{ marginTop: 20, padding: 16, background: COLORS.surfaceAlt, borderRadius: 8, borderLeft: `3px solid ${COLORS.accentWarm}` }}>
       <p style={{ margin: 0, fontSize: 13, color: COLORS.text, lineHeight: 1.6, fontFamily: "'DM Sans', sans-serif" }}>
-        <strong style={{ color: COLORS.accentWarm }}>Hito histÃ³rico Q4 2024:</strong> Los fabricantes chinos combinados (Xiaomi, OPPO, Vivo, Honor, Huawei, Lenovo, realme, Transsion, TCL, ZTE) alcanzaron el 56% de los envÃ­os globales â€” el mÃ¡ximo histÃ³rico jamÃ¡s registrado en un trimestre.
+        <strong style={{ color: COLORS.accentWarm }}>Hito histórico Q4 2024:</strong> Los fabricantes chinos combinados (Xiaomi, OPPO, Vivo, Honor, Huawei, Lenovo, realme, Transsion, TCL, ZTE) alcanzaron el 56% de los envíos globales — el máximo histórico jamás registrado en un trimestre.
       </p>
     </div>
   </div>
@@ -135,7 +135,7 @@ const GlobalView = () => (
 
 const ColombiaView = () => (
   <div>
-    <SectionTitle sub="3er mercado LATAM. EnvÃ­os Q1 2024: +27% YoY. Android 79% | iOS 21%">Mercado Colombia 2024-2025</SectionTitle>
+    <SectionTitle sub="3er mercado LATAM. Envíos Q1 2024: +27% YoY. Android 79% | iOS 21%">Mercado Colombia 2024-2025</SectionTitle>
     <div style={{ overflowX: "auto" }}>
       <table style={{ width: "100%", borderCollapse: "separate", borderSpacing: "0 4px", fontFamily: "'DM Sans', sans-serif" }}>
         <thead>
@@ -160,7 +160,7 @@ const ColombiaView = () => (
     </div>
     <div style={{ marginTop: 20, padding: 16, background: COLORS.surfaceAlt, borderRadius: 8, borderLeft: `3px solid ${COLORS.accent}` }}>
       <p style={{ margin: 0, fontSize: 13, color: COLORS.text, lineHeight: 1.6, fontFamily: "'DM Sans', sans-serif" }}>
-        <strong style={{ color: COLORS.accent }}>Insight clave:</strong> Samsung perdiÃ³ ~50% de cuota YoY pero mantiene liderazgo. La concentraciÃ³n se reduce: TECNO pasÃ³ de 0% a 10% en un trimestre, demostrando que nuevos entrantes pueden capturar share rÃ¡pidamente en Colombia.
+        <strong style={{ color: COLORS.accent }}>Insight clave:</strong> Samsung perdió ~50% de cuota YoY pero mantiene liderazgo. La concentración se reduce: TECNO pasó de 0% a 10% en un trimestre, demostrando que nuevos entrantes pueden capturar share rápidamente en Colombia.
       </p>
     </div>
   </div>
@@ -177,15 +177,15 @@ const CompetitorView = () => (
             <span style={{ fontSize: 11, padding: "3px 10px", background: COLORS.accentDim, color: COLORS.accent, borderRadius: 20, fontWeight: 600 }}>{c.segment}</span>
           </div>
           <div style={{ fontSize: 12, color: COLORS.textDim, marginBottom: 8 }}>
-            <strong style={{ color: COLORS.textDim }}>Modelo:</strong> {c.model} &nbsp;Â·&nbsp; <strong>Pricing:</strong> {c.pricing}
+            <strong style={{ color: COLORS.textDim }}>Modelo:</strong> {c.model} &nbsp;·&nbsp; <strong>Pricing:</strong> {c.pricing}
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginTop: 10 }}>
             <div style={{ padding: 10, background: COLORS.accent + "0a", borderRadius: 6, border: `1px solid ${COLORS.accent}22` }}>
-              <div style={{ fontSize: 10, fontWeight: 600, color: COLORS.accent, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 4 }}>âœ¦ Ventaja</div>
+              <div style={{ fontSize: 10, fontWeight: 600, color: COLORS.accent, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 4 }}>✦ Ventaja</div>
               <div style={{ fontSize: 12, color: COLORS.text, lineHeight: 1.5 }}>{c.advantage}</div>
             </div>
             <div style={{ padding: 10, background: COLORS.danger + "0a", borderRadius: 6, border: `1px solid ${COLORS.danger}22` }}>
-              <div style={{ fontSize: 10, fontWeight: 600, color: COLORS.danger, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 4 }}>âš  Debilidad</div>
+              <div style={{ fontSize: 10, fontWeight: 600, color: COLORS.danger, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 4 }}>⚠ Debilidad</div>
               <div style={{ fontSize: 12, color: COLORS.text, lineHeight: 1.5 }}>{c.weakness}</div>
             </div>
           </div>
@@ -197,7 +197,7 @@ const CompetitorView = () => (
 
 const MoatView = () => (
   <div>
-    <SectionTitle sub="EvaluaciÃ³n de ventajas estructurales sostenibles (5 dimensiones)">AnÃ¡lisis de MOAT Competitivo</SectionTitle>
+    <SectionTitle sub="Evaluación de ventajas estructurales sostenibles (5 dimensiones)">Análisis de MOAT Competitivo</SectionTitle>
     <div style={{ overflowX: "auto" }}>
       <table style={{ width: "100%", borderCollapse: "separate", borderSpacing: "0 6px", fontFamily: "'DM Sans', sans-serif" }}>
         <thead>
@@ -221,12 +221,12 @@ const MoatView = () => (
     </div>
     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginTop: 20 }}>
       <div style={{ padding: 16, background: COLORS.accent + "10", borderRadius: 10, border: `1px solid ${COLORS.accent}30`, fontFamily: "'DM Sans', sans-serif" }}>
-        <div style={{ fontSize: 11, fontWeight: 700, color: COLORS.accent, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 8 }}>âœ¦ Moat oculto de ZTE</div>
+        <div style={{ fontSize: 11, fontWeight: 700, color: COLORS.accent, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 8 }}>✦ Moat oculto de ZTE</div>
         <p style={{ margin: 0, fontSize: 12, color: COLORS.text, lineHeight: 1.6 }}>5.6% de patentes 5G globales (top 5 mundial) = ventaja en costos de licenciamiento. #2 mundial en estaciones base 5G = leverage con operadores colombianos para bundling de dispositivos.</p>
       </div>
       <div style={{ padding: 16, background: COLORS.danger + "10", borderRadius: 10, border: `1px solid ${COLORS.danger}30`, fontFamily: "'DM Sans', sans-serif" }}>
-        <div style={{ fontSize: 11, fontWeight: 700, color: COLORS.danger, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 8 }}>âš  Debilidad crÃ­tica</div>
-        <p style={{ margin: 0, fontSize: 12, color: COLORS.text, lineHeight: 1.6 }}>Ausencia total de canal de distribuciÃ³n en Colombia: sin operadores, sin retail, sin servicio postventa. Esta es la prioridad #1 antes de que cualquier ventaja de producto se traduzca en ventas.</p>
+        <div style={{ fontSize: 11, fontWeight: 700, color: COLORS.danger, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 8 }}>⚠ Debilidad crítica</div>
+        <p style={{ margin: 0, fontSize: 12, color: COLORS.text, lineHeight: 1.6 }}>Ausencia total de canal de distribución en Colombia: sin operadores, sin retail, sin servicio postventa. Esta es la prioridad #1 antes de que cualquier ventaja de producto se traduzca en ventas.</p>
       </div>
     </div>
   </div>
@@ -234,7 +234,7 @@ const MoatView = () => (
 
 const SpacesView = () => (
   <div>
-    <SectionTitle sub="Nichos con demanda insatisfecha donde ZTE puede ganar sin competir frontalmente">Espacios EstratÃ©gicos Desatendidos</SectionTitle>
+    <SectionTitle sub="Nichos con demanda insatisfecha donde ZTE puede ganar sin competir frontalmente">Espacios Estratégicos Desatendidos</SectionTitle>
     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
       {spaces.map((s) => (
         <div key={s.id} style={{ padding: 18, background: COLORS.surface, borderRadius: 12, border: `1px solid ${COLORS.border}`, position: "relative", overflow: "hidden", fontFamily: "'DM Sans', sans-serif" }}>
@@ -257,7 +257,7 @@ const SpacesView = () => (
 
 const StrategyView = () => (
   <div>
-    <SectionTitle sub="Plan de 18 meses Â«Wedge & ExpandÂ» â€” entrada por nichos, expansiÃ³n escalonada">Estrategia de Entrada Recomendada</SectionTitle>
+    <SectionTitle sub="Plan de 18 meses «Wedge & Expand» — entrada por nichos, expansión escalonada">Estrategia de Entrada Recomendada</SectionTitle>
     <div style={{ display: "flex", flexDirection: "column", gap: 0, fontFamily: "'DM Sans', sans-serif" }}>
       {phases.map((p, i) => (
         <div key={i} style={{ display: "flex", gap: 0 }}>
@@ -285,14 +285,14 @@ const StrategyView = () => (
       ))}
     </div>
     <div style={{ marginTop: 20, padding: 18, background: `linear-gradient(135deg, ${COLORS.zte}15, ${COLORS.accent}10)`, borderRadius: 12, border: `1px solid ${COLORS.zte}33`, fontFamily: "'DM Sans', sans-serif" }}>
-      <div style={{ fontSize: 12, fontWeight: 700, color: COLORS.zte, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 10 }}>Palanca de negociaciÃ³n Ãºnica</div>
+      <div style={{ fontSize: 12, fontWeight: 700, color: COLORS.zte, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 10 }}>Palanca de negociación única</div>
       <p style={{ margin: 0, fontSize: 13, color: COLORS.text, lineHeight: 1.7 }}>
-        ZTE ya vende infraestructura 5G a operadores colombianos. Puede ofrecer el Blade A75 5G (el dispositivo 5G mÃ¡s barato del mundo) como complemento: <em style={{ color: COLORS.accent }}>"Ustedes usan nuestra red. Les damos el telÃ©fono de entrada a sus planes 5G."</em> NingÃºn otro fabricante de smartphones puede hacer este pitch.
+        ZTE ya vende infraestructura 5G a operadores colombianos. Puede ofrecer el Blade A75 5G (el dispositivo 5G más barato del mundo) como complemento: <em style={{ color: COLORS.accent }}>"Ustedes usan nuestra red. Les damos el teléfono de entrada a sus planes 5G."</em> Ningún otro fabricante de smartphones puede hacer este pitch.
       </p>
     </div>
     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, marginTop: 16 }}>
       {[
-        { label: "InversiÃ³n estimada", value: "USD 2-4M", sub: "18 meses total" },
+        { label: "Inversión estimada", value: "USD 2-4M", sub: "18 meses total" },
         { label: "ROI esperado", value: "4-5%", sub: "cuota mercado M18" },
         { label: "Break-even", value: "~M14", sub: "al alcanzar 15K u/mes" },
       ].map((m, i) => (
@@ -325,11 +325,11 @@ export default function App() {
       <header style={{ padding: "28px 32px 20px", borderBottom: `1px solid ${COLORS.border}` }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
           <div>
-            <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.15em", color: COLORS.accent, textTransform: "uppercase", marginBottom: 6 }}>AnÃ¡lisis Competitivo</div>
+            <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.15em", color: COLORS.accent, textTransform: "uppercase", marginBottom: 6 }}>Análisis Competitivo</div>
             <h1 style={{ margin: 0, fontSize: 28, fontWeight: 900, fontFamily: "'Playfair Display', serif", color: COLORS.white, letterSpacing: "-0.02em" }}>
               Mercado Smartphones <span style={{ color: COLORS.accent }}>Colombia & Global</span>
             </h1>
-            <p style={{ margin: "6px 0 0", fontSize: 13, color: COLORS.textDim }}>Estrategia de entrada y crecimiento para ZTE Corporation Â· Febrero 2026</p>
+            <p style={{ margin: "6px 0 0", fontSize: 13, color: COLORS.textDim }}>Estrategia de entrada y crecimiento para ZTE Corporation · Febrero 2026</p>
           </div>
           <div style={{ textAlign: "right" }}>
             <div style={{ fontSize: 32, fontWeight: 900, fontFamily: "'DM Mono', monospace", color: COLORS.zte }}>ZTE</div>
