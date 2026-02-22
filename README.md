@@ -35,17 +35,6 @@ An interactive strategic intelligence dashboard analyzing the global and Colombi
 - **Google Fonts**: Playfair Display, DM Sans, DM Mono
 - **Zero external dependencies** beyond React core
 
-## 📦 Local Development
-
-```bash
-# Clone the repository
-git clone https://github.com/myriskexp/ZTE_Analisis_Competitivo_Dashboard.git
-cd ZTE_Analisis_Competitivo_Dashboard
-
-# If using Vite or CRA, place the JSX in your src/ and import it
-# The component exports a default App component
-```
-
 ## 📄 Data Sources
 
 Market data compiled from publicly available reports: Counterpoint Research, IDC, TechInsights, StatCounter Global Stats, ZTE Corporation financial disclosures (2024–2025), and Statista.
